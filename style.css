@@ -90,6 +90,28 @@ section {
   color: var(--main-color);
 }
 
+.header .logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+}
+
+.header .logo img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.header .logo h1{
+    margin: 0;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+}
+
 .header .navbar a {
   margin: 0 1rem;
   font-size: 1.6rem;
