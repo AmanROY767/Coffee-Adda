@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- EXTERNAL STYLESHEET -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- REMIX ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoFFee AddA | Wake Up with Fresh Coffee</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <a href="" class="logo">
+        <h1>CoFFee <span>AddA</span></h1>
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+
+      <div class="icons">
+        <i class="ri-search-line" id="search-btn"></i>
+        <i class="ri-shopping-cart-line" id="cart-btn"></i>
+        <i class="ri-menu-line" id="menu-btn"></i>
+      </div>
+
+      <!-- SEARCH FORM -->
+      <div class="search-form">
+        <input
+          type="text"
+          autocomplete="off"
+          id="search-box"
+          placeholder="search here..."
+        />
+        <label for="search-box" class="ri-search-line"></label>
+      </div>
+
+      <!-- CART CONTAINER -->
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="ri-close-large-line"></i>
+          <img src="./img/cart.jpg" alt="" />
+          <div class="content">
+            <h3>Cafe Macchiato</h3>
+            <div class="price">Rs150/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="ri-close-large-line"></i>
+          <img src="./img/cart.jpg" alt="" />
+          <div class="content">
+            <h3>Espresso</h3>
+            <div class="price">Rs150/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="ri-close-large-line"></i>
+          <img src="./img/cart.jpg" alt="" />
+          <div class="content">
+            <h3>Cappuccino</h3>
+            <div class="price">Rs150/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>fresh coffee in the morning</h3>
+        <p>
+          Brewed with Passion. Served with Perfection.
+          Start your day with the irresistible aroma of freshly roasted coffee, 
+          crafted from hand-picked beans and brewed to deliver bold flavor in every sip.
+        </p>
+        <a href="#" class="btn">get yours now</a>
+      </div>
+      <div class="overlay"></div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+      <div class="row">
+        <div class="image">
+          <img src="./img/about.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>what makes our coffee special?</h3>
+          <p>
+           Sourced from Nature's Finest, Crafted for Your Perfect Cup.
+           Our premium coffee beans are handpicked from high-altitude 
+           plantations, where slow ripening creates rich aromas, bold flavors, and an unforgettable coffee experience.
+          </p>
+          <p>
+           Crafted in Small Batches. Perfected in Every Cup.
+           Every batch is carefully roasted to preserve freshness, 
+           unlock rich flavors, and deliver a consistently exceptional coffee experience.
+          </p>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/menu-1.jpg" alt="" />
+          <h3>Caffè macchiato</h3>
+          <div class="price">Rs150 <span>Rs200</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <img src="./img/menu-2.jpg" alt="" />
+          <h3>Cappuccino</h3>
+          <div class="price">Rs150 <span>Rs200</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <img src="./img/menu-3.jpg" alt="" />
+          <h3>Espresso</h3>
+          <div class="price">Rs150 <span>Rs200</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <img src="./img/menu-1.jpg" alt="" />
+          <h3>Caffè macchiato</h3>
+          <div class="price">Rs150 <span>Rs200</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <img src="./img/menu-2.jpg" alt="" />
+          <h3>Cappuccino</h3>
+          <div class="price">Rs150 <span>Rs200</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <img src="./img/menu-3.jpg" alt="" />
+          <h3>Espresso</h3>
+          <div class="price">Rs150 <span>Rs200</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT SECTION -->
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="./img/product-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Caffè macchiato</h3>
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+            </div>
+            <div class="price">Rs150 <span>Rs200</span></div>
+            <div class="icons">
+              <a href="#"><i class="ri-shopping-cart-line"></i></a>
+              <a href="#"><i class="ri-heart-line"></i></a>
+              <a href="#"><i class="ri-eye-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./img/product-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Cappuccino</h3>
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+            </div>
+            <div class="price">Rs150 <span>Rs200</span></div>
+            <div class="icons">
+              <a href="#"><i class="ri-shopping-cart-line"></i></a>
+              <a href="#"><i class="ri-heart-line"></i></a>
+              <a href="#"><i class="ri-eye-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./img/product-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Espresso</h3>
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+            </div>
+            <div class="price">Rs150 <span>Rs200</span></div>
+            <div class="icons">
+              <a href="#"><i class="ri-shopping-cart-line"></i></a>
+              <a href="#"><i class="ri-heart-line"></i></a>
+              <a href="#"><i class="ri-eye-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <p>
+            Every cup is a masterpiece. The rich aroma, bold flavor, and silky-smooth finish
+            make this coffee unforgettable. It's not just a drink—it's an experience I look forward to every single day.
+          </p>
+          <img src="./img/user-1.jpg" class="user" alt="" />
+          <h3>John Doe</h3>
+          <div class="stars">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            A truly premium coffee experience. Smooth, bold, and perfectly roasted.
+            The attention to quality is evident from the first sip to the last.
+          </p>
+          <img src="./img/user-2.jpg" class="user" alt="" />
+          <h3>Alex Doe</h3>
+          <div class="stars">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            The freshness is unmatched. Every sip is full of rich flavor and comforting aroma.
+            This is premium coffee at its finest, and I can't imagine starting my day without it.
+          </p>
+          <img src="./img/user-3.jpg" class="user" alt="" />
+          <h3>Mike Smith</h3>
+          <div class="stars">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps?q=Boring+Road,+Patna,+Bihar+800001&output=embed"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+        <form action="">
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <i class="ri-user-line"></i>
+            <input type="text" placeholder="Full Name" />
+          </div>
+          <div class="inputBox">
+            <i class="ri-mail-line"></i>
+            <input type="email" placeholder="Email Address" />
+          </div>
+          <div class="inputBox">
+            <i class="ri-phone-line"></i>
+            <input type="text" placeholder="Phone Number" />
+          </div>
+          <input type="submit" value="contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- BLOG SECTION -->
+<section class="blogs" id="blogs">
+  <h1 class="heading">Coffee <span>Journal</span></h1>
+
+  <div class="box-container">
+
+    <!-- Blog 1 -->
+    <div class="box">
+      <div class="image">
+        <img src="./img/blog-1.jpg" alt="Freshly Brewed Coffee" />
+      </div>
+
+      <div class="content">
+        <a href="#" class="title">
+          From Bean to Cup: The Journey of Exceptional Coffee
+        </a>
+
+        <span>By Coffee Adda • June 10, 2026</span>
+
+        <p>
+          Discover how carefully selected beans, expert roasting, and
+          handcrafted brewing come together to create the perfect cup of
+          coffee every time.
+        </p>
+
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+
+    <!-- Blog 2 -->
+    <div class="box">
+      <div class="image">
+        <img src="./img/blog-2.jpg" alt="Coffee and Bakery" />
+      </div>
+
+      <div class="content">
+        <a href="#" class="title">
+          Perfect Pairings: Coffee & Freshly Baked Delights
+        </a>
+
+        <span>By Coffee Adda • May 8, 2026</span>
+
+        <p>
+          Explore delicious combinations of rich espresso, creamy cappuccinos,
+          and freshly baked pastries that make every coffee break truly
+          unforgettable.
+        </p>
+
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+
+    <!-- Blog 3 -->
+    <div class="box">
+      <div class="image">
+        <img src="./img/blog-3.jpg" alt="Coffee Lifestyle" />
+      </div>
+
+      <div class="content">
+        <a href="#" class="title">
+          Every Cup Tells a Story: The Art of Slow Brewing
+        </a>
+
+        <span>By Coffee Adda • April 5, 2026</span>
+
+        <p>
+          Slow down and enjoy the rich aroma, smooth texture, and bold flavors
+          of handcrafted coffee made with passion and served with perfection.
+        </p>
+
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- FOOTER SECTION -->
+    <section class="footer">
+      <div class="share">
+        <i class="ri-facebook-circle-fill"></i>
+        <i class="ri-twitter-fill"></i>
+        <i class="ri-instagram-fill"></i>
+        <i class="ri-linkedin-box-fill"></i>
+        <i class="ri-pinterest-fill"></i>
+      </div>
+      <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </div>
+      <div class="credit">
+        <p>&copy; 2026 CoFFee AddA. All Rights Reserved.</p>
+        created by <span>Aman Anand</span>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
